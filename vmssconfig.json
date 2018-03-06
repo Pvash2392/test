@@ -1,0 +1,69 @@
+{
+    "$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+    "contentVersion": "1.0.0.0",
+    "parameters": {
+        "location": {
+            "value":"eastus2"
+        },
+        "vmssName": {
+            "value":"inmobieventserver"
+        },
+        "vmSku": {
+            "value": "Standard_D2_v3"
+        },
+        "DiskInGB": {
+            "value": "64"
+        },
+        "adminUsername": {
+            "value": "inmobi"
+        },
+        "instanceCount": {
+            "value": "2"
+        },
+        "singlePlacementGroup": {
+            "value": "false"
+        },
+        "autoscaleDefault": {
+            "value": "2"
+        },
+        "autoscaleMax": {
+            "value": "5"
+        },
+        "autoscaleMin": {
+            "value": "2"
+        },
+        "scaleInCPUPercentageThreshold": {
+            "value": "25"
+        },
+        "scaleInInterval": {
+            "value": "1"
+        },
+        "scaleOutCPUPercentageThreshold": {
+            "value": "75"
+        },
+        "scaleOutInterval": {
+            "value": "1"
+        },
+        "adminPassword": {
+            "value": "inmobi@123456"
+        },
+        "ipAllocationMethod": {
+            "value": "Dynamic"
+        },
+        "pipName": {
+            "value": "inmobieventserver"
+        },
+        "pipLabel": {
+            "value": "inmobieventserver"
+        },
+        "frontEndLBPort": {
+            "value": "8099"
+        },
+        "backEndLBPort": {
+            "value": "8099"
+        },
+        "NSGName": {
+            "value": "inmobiNS"
+        }
+    }
+}

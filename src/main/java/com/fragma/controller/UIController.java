@@ -8,6 +8,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class UIController {
     @RequestMapping("/")
     public String home(){
-        return "welcome";
+        return "fragma hi new code";
     }
 }
