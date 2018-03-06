@@ -6,7 +6,7 @@
             "value":"eastus2"
         },
         "vmssName": {
-            "value":"inmobieventserver"
+            "value":"jenkinstest"
         },
         "vmSku": {
             "value": "Standard_D2_v3"
