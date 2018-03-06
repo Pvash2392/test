@@ -51,10 +51,10 @@
             "value": "Dynamic"
         },
         "pipName": {
-            "value": "inmobieventserver"
+            "value": "jenkinsFragma"
         },
         "pipLabel": {
-            "value": "inmobieventserver"
+            "value": "jenkinsfragma"
         },
         "frontEndLBPort": {
             "value": "8099"
@@ -63,7 +63,7 @@
             "value": "8099"
         },
         "NSGName": {
-            "value": "inmobiNS"
+            "value": "jenkinsNSG"
         }
     }
 }
